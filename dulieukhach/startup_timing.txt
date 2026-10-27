@@ -1,0 +1,19 @@
+     0 ms - Application_Startup bắt đầu
+  1102 ms - UpdateChecker.CheckAndUpdateAsync xong
+  1711 ms - LicenseClient.LoginAsync (autologin) xong
+  1994 ms - LicenseClient.CheckHardwareAsync (checkocung) xong
+  2634 ms - DesktopLicenseGuard.InitializeAsync (desktop-token + jwks + verify) xong
+  2907 ms - MainWindow ctor: trước InitializeComponent
+  3264 ms - MainWindow ctor: InitializeComponent xong
+  3290 ms - MainWindow ctor: LoadAiVisionSettingsForm xong
+  3294 ms - MainWindow ctor: bắt đầu load DB
+  3344 ms - MainWindow ctor: FacebookAccountDatabase.EnsureCreated xong
+  3344 ms - MainWindow ctor: SetupFacebookView xong
+  3344 ms - MainWindow ctor: SetupScriptViews xong
+  3351 ms - MainWindow ctor: LoadFoldersFromDatabase xong
+  3353 ms - MainWindow ctor: LoadActionsFromDatabase xong
+  3355 ms - MainWindow ctor: LoadScriptFoldersFromDatabase xong
+  3361 ms - MainWindow ctor: LoadFacebooksFromDatabase xong
+  3375 ms - MainWindow ctor: gắn 3 ContentHost xong
+  3378 ms - MainWindow ctor: SetSharedCollections xong (hết constructor)
+  4185 ms - MainWindow.Show() xong
